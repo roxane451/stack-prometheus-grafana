@@ -38,7 +38,7 @@ scrape_configs:
 
   - job_name: "cadvisor"
 
-    # Remplacez la valeur globale par défaut et récupérez les cibles de cette tâche toutes les 5 secondes.
+    # Remplacez la valeur globale par défaut et récupérez les cibles de cette tâche toutes les 15 secondes.
     scrape_interval: 15s
 
     static_configs:
@@ -46,7 +46,7 @@ scrape_configs:
 
   - job_name: "node-exporter"
 
-    # Remplacez la valeur globale par défaut et récupérez les cibles de cette tâche toutes les 5 secondes.
+    # Remplacez la valeur globale par défaut et récupérez les cibles de cette tâche toutes les 15 secondes.
     scrape_interval: 15s
 
     static_configs:
